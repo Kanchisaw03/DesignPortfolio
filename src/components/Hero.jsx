@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex flex-col md:flex-row items-center justify-between gap-12 px-6 md:px-16 pt-28 md:pt-32 overflow-hidden">
       {/* Background animated stars */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-blue-50/40 via-purple-50/40 to-pink-50/40 -z-10">
+      <div className="">
         <div className="absolute inset-0 opacity-20">
           {[...Array(20)].map((_, i) => (
             <motion.div
