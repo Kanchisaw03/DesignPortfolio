@@ -25,9 +25,9 @@ const Work = () => {
       title: 'The food delivery UI',
       description: 'The Foodie App is a sleek and modern food delivery interface crafted to enhance user convenience and visual delight. Designed with a warm and appetizing color palette, the UI focuses on intuitive navigation, clear call-to-actions, and mouthwatering visuals that create a seamless ordering experience from browsing to checkout.From restaurant discovery and personalized recommendations to real-time tracking and easy payments, every screen is thoughtfully structured to reduce friction and keep the user engaged. The layout is responsive, minimal, and mobile-first, ensuring a smooth experience across all devices. This design balances functionality with aesthetics, making food ordering feel effortless, satisfying, and just a little bit magical.',
       images: [
-        'src/assets/web designs/foodie web.svg',
-        'src/assets/web designs/foodie app.svg',
-        'src/assets/web designs/food delivery app home.svg'
+        '/assets/web designs/foodie web.svg',
+        '/assets/web designs/foodie app.svg',
+        '/assets/web designs/food delivery app home.svg'
       
       ],
       tags: ['UI Design', 'Food delivery', 'Dark Theme'],
@@ -37,8 +37,8 @@ const Work = () => {
       title: 'The Netflix UI Reimagined',
       description: 'DreamFlix is a soft, pastel reimagining of the classic Netflix interface — blending cozy aesthetics with cinematic flair. Designed to transport users into a serene streaming experience, this UI features a gentle color palette of lilacs, blush pinks, baby blues, and dreamy gradients that create a calming, almost whimsical feel.The layout stays true to Netflix’s intuitive structure but adds a magical twist with glowing hover effects, smooth transitions, and soft typography. Each section—from the hero banners to the horizontal carousels—is carefully crafted to highlight content without overwhelming the viewer.Perfect for a night of feel-good shows and slow-burn stories, DreamFlix invites users into a world where binge-watching feels like floating through a cloud of comfort and creativity.',
       images: [
-        'src/assets/web designs/ntflixui 1.svg',
-        'src/assets/web designs/netflix ui 2.png'
+        '/assets/web designs/ntflixui 1.svg',
+        '/assets/web designs/netflix ui 2.png'
       ],
       tags: ['UI Design', 'Netflix', 'Pastel'],
       figma: 'https://www.figma.com/design/eRdLjdFoFN40V77o0iIf8s/netflix-ui-reimagined?node-id=0-1&t=fCCvFdToVJVQxLQO-1'
@@ -56,11 +56,11 @@ const Work = () => {
       title: 'Design Flow',
       description: 'DesignFlow is a dreamy, pastel-toned dashboard crafted for designers, by a designer. Built to inspire calm and clarity, the interface blends soft gradients, fluid motion, and intuitive structure to help creatives manage their projects without chaos.The UI features elegant sections for moodboards, task tracking, client feedback, and resource organization—designed like a personal creative sanctuary. From glowing buttons to cloud-like cards, every element feels light, focused, and thoughtfully placed.Whether you are working on a branding project, UI kit, or illustration series, DesignFlow makes the process feel less like a task list—and more like an aesthetic journey.',
       images: [
-        'src/assets/web designs/home page.svg',
-        'src/assets/web designs/home page-1.svg',
-        'src/assets/web designs/Dhashboard for client.svg',
-        'src/assets/web designs/Dhashboard for client-1.svg',
-        'src/assets/web designs/chat with designer.svg',
+        '/assets/web designs/home page.svg',
+        '/assets/web designs/home page-1.svg',
+        '/assets/web designs/Dhashboard for client.svg',
+        '/assets/web designs/Dhashboard for client-1.svg',
+        '/assets/web designs/chat with designer.svg',
       ],
       tags: ['Web app', 'UI UX', 'Animation'],
       figma: 'https://www.figma.com/design/7z3D9MaE5y1ukqbM3aEnC1/designflow-uiux?node-id=0-1&t=ySAFPCOlVaUFyG7s-1'
