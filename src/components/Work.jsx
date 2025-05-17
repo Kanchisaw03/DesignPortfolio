@@ -47,7 +47,7 @@ const Work = () => {
       title: 'The cardgame UI',
       description: 'Carvant is a modern and immersive card game interface that brings the thrill of traditional card play into the digital realm with elegance and ease. Designed with a sleek layout, rich textures, and subtle animations, the UI offers a luxurious yet approachable feel for casual players and seasoned pros alike.The table interface mimics real-life card dynamics, with smooth drag-and-drop actions, dynamic score displays, and real-time multiplayer indicators. A harmonious blend of bold typography and dark-accented colors ensures readability and visual focus during intense gameplay.Whether it’s Poker night, Rummy rounds, or friendly Uno sessions, Carvant delivers a polished experience that celebrates the timeless charm of card games—reimagined for today’s screens.',
       images: [
-        'src/assets/web designs/card game.svg',
+        '/assets/web designs/card game.svg',
       ],
       tags: ['Web Game', 'Dark Theme', 'Home page UI'],
       figma: 'https://www.figma.com/design/3mM8yLt0LRoaSj4CO1ADC4/cardgame-website?node-id=0-1&t=ioIyVn8Lx6NoOe1R-1'

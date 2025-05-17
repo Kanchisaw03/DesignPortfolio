@@ -37,21 +37,7 @@ function App() {
 
       
 
-      {/* 🐭 Mouse trail (above overlay) */}
-      {trail.map((pos, index) => (
-        <motion.div
-          key={index}
-          className="cursor-trail fixed w-4 h-4 rounded-full bg-white opacity-50 pointer-events-none z-20"
-          initial={{ scale: 1, opacity: 0.5 }}
-          animate={{
-            x: pos.x - 8,
-            y: pos.y - 8,
-            scale: 1 - index * 0.1,
-            opacity: 0.5 - index * 0.05
-          }}
-          transition={{ duration: 0.1 }}
-        />
-      ))}
+    
 
       {/* 🌟 Main content */}
       <div className="relative z-30">
