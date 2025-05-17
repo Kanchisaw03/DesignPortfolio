@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .dream-button {
+    @apply px-6 py-3 bg-gradient-to-r from-pink-400 to-blue-400 text-white rounded-full 
+           shadow-lg transform transition-all duration-300;
+  }
+
+  .dream-button:hover {
+    @apply shadow-xl scale-105;
+  }
+
+  .dream-button:active {
+    @apply scale-95;
+  }
+
+  .dream-button:focus {
+    @apply outline-none ring-2 ring-pink-300/50;
+  }
+
+  .cursor-trail {
+    @apply fixed pointer-events-none w-4 h-4 bg-gradient-to-r from-pink-400 to-blue-400 
+           rounded-full mix-blend-multiply filter blur-sm;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-pink-400 to-blue-400 rounded-full;
+}
+
+/* Selection color */
+::selection {
+  @apply bg-pink-200 text-gray-900;
+}
